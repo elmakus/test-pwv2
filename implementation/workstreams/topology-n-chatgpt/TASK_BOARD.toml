@@ -1,12 +1,12 @@
 workstream_id = "topology-n-chatgpt"
-revision = 2
+revision = 3
 
 [execution_ref]
 branch = "feat/m07-l09-topology-n-chatgpt"
 
 [[cards]]
 id = "M01-T01"
-status = "in_progress"
+status = "done"
 review_attempts = [
   { class = "review_attempt", path = "implementation/workstreams/topology-n-chatgpt/reviews/M01-T01-R01.toml" },
   { class = "review_attempt", path = "implementation/workstreams/topology-n-chatgpt/reviews/M01-T01-R02.toml" },
