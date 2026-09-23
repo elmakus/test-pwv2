@@ -1,30 +1,30 @@
 workstream_id = "user-setting-persistence-restart"
-state = "consumed"
+state = "active"
 origin_role = "intake"
-origin_subject = "repair:user-setting-persistence-across-restart:v1"
+origin_subject = "repair:user-setting-persistence-nondestructive:v2"
 return_target = "intake"
-return_reconciliation = "applied"
-return_result = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.toml#repair:user-setting-persistence-across-restart:v1"
-finding = "No matching prior repair or product implementation exists in the consumer repository. The current evidence supports only a behavioral repair target: after a setting is reported as saved, the same newest value must be restored after application restart, with a regression test covering save -> restart -> reload."
-limitations = "The default branch contains no application implementation, storage backend, startup lifecycle, reproduction fixture, or logs, so no code-level root cause or framework-specific fix can be verified yet."
-conflicts = "none"
+return_reconciliation = "pending"
+return_result = ""
+finding = ""
+limitations = ""
+conflicts = ""
 
 [[sources]]
 class = "official_upstream"
-status = "not_relevant"
+status = "pending"
 weight = "primary"
 
 [[sources]]
 class = "project_runtime"
-status = "checked"
+status = "pending"
 weight = "direct"
 
 [[sources]]
 class = "tracker_discussion"
-status = "checked"
+status = "pending"
 weight = "supporting"
 
 [[sources]]
 class = "practitioner_community"
-status = "not_relevant"
+status = "pending"
 weight = "supporting"
