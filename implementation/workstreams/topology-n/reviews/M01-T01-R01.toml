@@ -1,0 +1,20 @@
+workstream_id = "topology-n"
+card_id = "M01-T01"
+attempt = "R01"
+verdict = "pending"
+evidence_path = ""
+
+[subject]
+class = "git_blob"
+repository = "elmakus/test-pwv2"
+commit = "da4f4b2b4c9ed975b4a82deb5d8fae87536bda8f"
+path = "implementation/workstreams/topology-n/results/M01-T01.md"
+blob = "7cc3c960b0109ebe6957b8509c41b50b2899ad2a"
+
+[acceptance]
+class = "task_card"
+path = "implementation/workstreams/topology-n/cards/M01-T01.md"
+
+[independence]
+materially_produced_or_repaired_subject = false
+basis = "Pending L08 reviewer must be a genuinely separate native delegated model context; top-level Main did not produce the externally prepared S1 subject."
