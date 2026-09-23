@@ -20,3 +20,7 @@ path = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.tom
 [brainstorm]
 class = "brainstorm"
 path = "implementation/workstreams/user-setting-persistence-restart/BRAINSTORM.toml"
+
+[definition]
+class = "definition"
+path = "implementation/workstreams/user-setting-persistence-restart/DEFINITION.toml"
