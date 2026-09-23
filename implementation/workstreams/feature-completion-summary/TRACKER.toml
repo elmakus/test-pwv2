@@ -1,0 +1,9 @@
+workstream_id = "feature-completion-summary"
+provider = "github"
+repository = "elmakus/test-pwv2"
+dedup_key = "project-workflow:feature-completion-summary"
+state = "discovery"
+issue_number = 0
+candidate_issue_numbers = []
+readback_state = "pending"
+final_pr = 0
