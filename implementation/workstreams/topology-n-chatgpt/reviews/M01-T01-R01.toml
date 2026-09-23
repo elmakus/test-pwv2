@@ -1,8 +1,8 @@
 workstream_id = "topology-n-chatgpt"
 card_id = "M01-T01"
 attempt = "R01"
-verdict = "pending"
-evidence_path = ""
+verdict = "red"
+evidence_path = "implementation/workstreams/topology-n-chatgpt/evidence/M01-T01-independent-review-R01.md"
 
 [subject]
 class = "git_blob"
@@ -17,4 +17,4 @@ path = "implementation/workstreams/topology-n-chatgpt/cards/M01-T01.md"
 
 [independence]
 materially_produced_or_repaired_subject = false
-basis = "The pending reviewer must be a fresh top-level ChatGPT context that did not materially produce or repair the externally prepared S1 subject."
+basis = "Fresh top-level ChatGPT reviewer independently inspected the exact frozen S1 result, implementation subject and accepted oracle and did not materially produce or repair S1."
