@@ -1,5 +1,5 @@
 workstream_id = "user-setting-persistence-restart"
-revision = 3
+revision = 4
 
 [execution_ref]
 branch = "fix/user-setting-persistence-restart"
@@ -17,3 +17,17 @@ class = "result"
 path = "implementation/workstreams/user-setting-persistence-restart/results/M01-T01.md"
 commit = "c762f8c3e1a57e2c2bf85ed4af9d78521eeeeb7d"
 blob = "b9d19a2224e7314e17adc767e624d70b26b26de3"
+
+[[cards]]
+id = "M02-T01"
+status = "ready"
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M02-T01.md"
+
+[[jit_triggers]]
+id = "after-M02-T01"
+after_card = "M02-T01"
+state = "waiting"
+condition = "M02-T01 DONE result fixes the exact regression acceptance surface required to materialize the bounded persistence repair Card."
