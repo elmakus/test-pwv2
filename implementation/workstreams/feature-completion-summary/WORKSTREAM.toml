@@ -12,3 +12,7 @@ path = "implementation/workstreams/feature-completion-summary/INTAKE.toml"
 [tracker]
 class = "tracker"
 path = "implementation/workstreams/feature-completion-summary/TRACKER.toml"
+
+[brainstorm]
+class = "brainstorm"
+path = "implementation/workstreams/feature-completion-summary/BRAINSTORM.toml"
