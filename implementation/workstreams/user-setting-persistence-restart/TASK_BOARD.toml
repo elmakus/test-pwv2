@@ -1,5 +1,5 @@
 workstream_id = "user-setting-persistence-restart"
-revision = 8
+revision = 9
 
 [execution_ref]
 branch = "fix/user-setting-persistence-restart"
@@ -34,7 +34,7 @@ blob = "22040b172dbcb5d8f89bb08977f03bad1fd8e507"
 
 [[cards]]
 id = "M03-T01"
-status = "ready"
+status = "in_progress"
 
 [cards.contract]
 class = "task_card"
