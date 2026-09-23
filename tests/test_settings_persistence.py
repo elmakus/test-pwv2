@@ -53,6 +53,26 @@ class SettingsPersistenceRegressionTests(unittest.TestCase):
             self.assertEqual(restarted.snapshot(), initial)
             self.assertEqual(restarted.get("custom_threshold"), 7)
 
+    def test_failed_atomic_promotion_preserves_last_known_good_settings_on_restart(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "settings.json"
+            initial = {
+                "theme": "light",
+                "language": "pl",
+                "notifications": True,
+                "custom_threshold": 7,
+            }
+            path.write_text(json.dumps(initial) + "\n", encoding="utf-8")
+
+            store = SettingsStore(path)
+            with patch.object(Path, "replace", side_effect=OSError("simulated promotion failure")):
+                with self.assertRaises(OSError):
+                    store.save_setting("theme", "dark")
+
+            restarted = SettingsStore(path)
+            self.assertEqual(restarted.snapshot(), initial)
+            self.assertEqual(restarted.get("custom_threshold"), 7)
+
 
 if __name__ == "__main__":
     unittest.main()
