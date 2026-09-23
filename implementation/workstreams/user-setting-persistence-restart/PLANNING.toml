@@ -12,7 +12,7 @@ premium_a = "satisfied"
 premium_a_subject = "definition:R1|planning-cycle:1"
 premium_b = "satisfied"
 premium_b_subject = "elmakus/test-pwv2@c66ffe7729989b488291914dcc632b4e1331c082:planning/USER_SETTING_PERSISTENCE_PLAN.md@f2a1891bb2f3c769cd9dc452aae7869acf1a3bc7"
-premium_c = "due"
+premium_c = "satisfied"
 premium_c_subject = "elmakus/test-pwv2@c66ffe7729989b488291914dcc632b4e1331c082:planning/USER_SETTING_PERSISTENCE_PLAN.md@f2a1891bb2f3c769cd9dc452aae7869acf1a3bc7"
 
 [subject]
