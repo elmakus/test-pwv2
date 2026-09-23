@@ -1,12 +1,19 @@
 # Feature Completion Summary
 
-Durable initial authority for the managed feature requested by the user.
+Durable accepted product intent for the managed feature.
 
-The project should automatically create a short summary when work on a feature is completed.
+When work on a feature reaches successful Project Workflow completion, the project should automatically produce a short completion summary.
 
 The summary must include:
 - the most important changes;
 - tests that were executed;
 - any remaining work or follow-up items.
 
-This record captures the accepted initial intent for Intake/Brainstorming. Exact implementation scope remains subject to the Project Workflow V2 Definition and Planning stages.
+Accepted output behavior:
+- persist the summary as a durable `COMPLETION_SUMMARY.md` artifact inside the completed workstream;
+- present the same concise summary to the user as part of the final completion response;
+- derive both representations from the same verified completion evidence so they do not diverge.
+
+The durable artifact is intended to preserve an auditable cross-session record while the user-facing rendering provides the immediate completion report.
+
+Exact implementation mechanics remain subject to Project Workflow V2 Definition and Planning.
