@@ -1,0 +1,21 @@
+workstream_id = "user-setting-persistence-restart"
+plan_revision = "P1"
+planning_cycle = 1
+attempt = "R01"
+verdict = "pending"
+evidence_path = ""
+
+[subject]
+class = "git_blob"
+repository = "elmakus/test-pwv2"
+commit = "c66ffe7729989b488291914dcc632b4e1331c082"
+path = "planning/USER_SETTING_PERSISTENCE_PLAN.md"
+blob = "f2a1891bb2f3c769cd9dc452aae7869acf1a3bc7"
+
+[acceptance]
+class = "authority"
+path = "requirements/ISSUE_USER_SETTING_PERSISTENCE.md"
+
+[independence]
+materially_produced_or_repaired_subject = false
+basis = "Fresh semantic review context did not materially produce or repair this exact plan subject."

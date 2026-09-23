@@ -28,3 +28,7 @@ path = "implementation/workstreams/user-setting-persistence-restart/DEFINITION.t
 [planning]
 class = "planning"
 path = "implementation/workstreams/user-setting-persistence-restart/PLANNING.toml"
+
+[plan_review]
+class = "plan_review"
+path = "implementation/workstreams/user-setting-persistence-restart/PLAN_REVIEW.toml"
