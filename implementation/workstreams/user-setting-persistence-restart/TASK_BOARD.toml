@@ -1,5 +1,5 @@
 workstream_id = "user-setting-persistence-restart"
-revision = 5
+revision = 6
 
 [execution_ref]
 branch = "fix/user-setting-persistence-restart"
@@ -25,6 +25,12 @@ status = "in_progress"
 [cards.contract]
 class = "task_card"
 path = "implementation/workstreams/user-setting-persistence-restart/cards/M02-T01.md"
+
+[cards.result]
+class = "result"
+path = "implementation/workstreams/user-setting-persistence-restart/results/M02-T01.md"
+commit = "fd864837b6b514731823d957f00d55e414b334db"
+blob = "22040b172dbcb5d8f89bb08977f03bad1fd8e507"
 
 [[jit_triggers]]
 id = "after-M02-T01"
