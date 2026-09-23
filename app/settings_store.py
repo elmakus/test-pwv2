@@ -12,12 +12,7 @@ DEFAULT_SETTINGS = {
 
 
 class SettingsStore:
-    """Small JSON-backed settings store used only by the PWv2 live fixture.
-
-    The current save path intentionally reproduces the reported restart bug:
-    it stages the newest settings and reports success before promoting the
-    staged file to the durable settings file.
-    """
+    """Small JSON-backed settings store used only by the PWv2 live fixture."""
 
     def __init__(self, path: str | Path) -> None:
         self.path = Path(path)
@@ -38,12 +33,12 @@ class SettingsStore:
         updated = dict(self._settings)
         updated[key] = value
 
-        # BUG FIXTURE: the write is only staged. The durable file used on
-        # restart is never replaced, even though success is returned.
         pending = self.path.with_name(self.path.name + ".pending")
         pending.write_text(
             json.dumps(updated, sort_keys=True) + "\n",
             encoding="utf-8",
         )
+        pending.replace(self.path)
+
         self._settings = updated
         return True
