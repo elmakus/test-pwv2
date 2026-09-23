@@ -1,0 +1,14 @@
+kind = "feature"
+workstream_id = "feature-completion-summary"
+branch = "feat/feature-completion-summary"
+created_from = "ea8b963b064669fd41818909c2a6346a652b4228"
+integration_target = "main"
+authority = [{ class = "authority", path = "requirements/FEATURE_COMPLETION_SUMMARY.md" }]
+
+[intake]
+class = "intake"
+path = "implementation/workstreams/feature-completion-summary/INTAKE.toml"
+
+[tracker]
+class = "tracker"
+path = "implementation/workstreams/feature-completion-summary/TRACKER.toml"
