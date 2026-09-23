@@ -12,3 +12,7 @@ path = "implementation/workstreams/user-setting-persistence-restart/INTAKE.toml"
 [tracker]
 class = "tracker"
 path = "implementation/workstreams/user-setting-persistence-restart/TRACKER.toml"
+
+[research]
+class = "research"
+path = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.toml"
