@@ -24,3 +24,7 @@ path = "implementation/workstreams/user-setting-persistence-restart/BRAINSTORM.t
 [definition]
 class = "definition"
 path = "implementation/workstreams/user-setting-persistence-restart/DEFINITION.toml"
+
+[planning]
+class = "planning"
+path = "implementation/workstreams/user-setting-persistence-restart/PLANNING.toml"
