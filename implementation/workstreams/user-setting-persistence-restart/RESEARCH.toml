@@ -1,30 +1,30 @@
 workstream_id = "user-setting-persistence-restart"
-state = "active"
+state = "complete"
 origin_role = "intake"
 origin_subject = "repair:user-setting-persistence-nondestructive:v2"
 return_target = "intake"
 return_reconciliation = "pending"
 return_result = ""
-finding = ""
-limitations = ""
-conflicts = ""
+finding = "The accepted v2 constraints are consistent with the available project evidence and add explicit non-destructive guarantees around unrelated settings, interrupted writes, startup behavior, and whole-settings regression coverage. No competing prior repair or implementation exists in the consumer repository."
+limitations = "The repository still contains no application implementation, persistence backend, migration code, startup lifecycle, reproduction fixture, or runtime logs, so code-level safety mechanisms and root cause cannot yet be verified."
+conflicts = "none"
 
 [[sources]]
 class = "official_upstream"
-status = "pending"
+status = "not_relevant"
 weight = "primary"
 
 [[sources]]
 class = "project_runtime"
-status = "pending"
+status = "checked"
 weight = "direct"
 
 [[sources]]
 class = "tracker_discussion"
-status = "pending"
+status = "checked"
 weight = "supporting"
 
 [[sources]]
 class = "practitioner_community"
-status = "pending"
+status = "not_relevant"
 weight = "supporting"
