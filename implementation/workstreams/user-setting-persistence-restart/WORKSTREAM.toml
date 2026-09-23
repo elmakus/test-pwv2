@@ -16,3 +16,7 @@ path = "implementation/workstreams/user-setting-persistence-restart/TRACKER.toml
 [research]
 class = "research"
 path = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.toml"
+
+[brainstorm]
+class = "brainstorm"
+path = "implementation/workstreams/user-setting-persistence-restart/BRAINSTORM.toml"
