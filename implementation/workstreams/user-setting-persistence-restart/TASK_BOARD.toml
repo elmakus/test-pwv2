@@ -1,5 +1,5 @@
 workstream_id = "user-setting-persistence-restart"
-revision = 11
+revision = 12
 
 [execution_ref]
 branch = "fix/user-setting-persistence-restart"
@@ -34,7 +34,7 @@ blob = "22040b172dbcb5d8f89bb08977f03bad1fd8e507"
 
 [[cards]]
 id = "M03-T01"
-status = "in_progress"
+status = "done"
 review_attempts = [{ class = "review_attempt", path = "implementation/workstreams/user-setting-persistence-restart/reviews/M03-T01-R01.toml" }]
 
 [cards.contract]
