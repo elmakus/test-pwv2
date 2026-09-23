@@ -1,0 +1,20 @@
+workstream_id = "topology-n-chatgpt"
+card_id = "M01-T01"
+attempt = "R02"
+verdict = "green"
+evidence_path = "implementation/workstreams/topology-n-chatgpt/evidence/M01-T01-independent-review-R02.md"
+
+[subject]
+class = "git_blob"
+repository = "elmakus/test-pwv2"
+commit = "124a2945dcc7e28e3f7de64f53b48a9d0e41a6d1"
+path = "implementation/workstreams/topology-n-chatgpt/results/M01-T01.md"
+blob = "482bfb90e65bd5d9735ae09cb2e59999e11004b4"
+
+[acceptance]
+class = "task_card"
+path = "implementation/workstreams/topology-n-chatgpt/cards/M01-T01.md"
+
+[independence]
+materially_produced_or_repaired_subject = false
+basis = "Fresh top-level ChatGPT reviewer independently inspected the exact frozen S2 result, implementation subject, accepted oracle, review history, Task Board state and production router route and did not materially produce or repair S2."

@@ -1,0 +1,23 @@
+workstream_id = "topology-n-chatgpt"
+revision = 3
+
+[execution_ref]
+branch = "feat/m07-l09-topology-n-chatgpt"
+
+[[cards]]
+id = "M01-T01"
+status = "done"
+review_attempts = [
+  { class = "review_attempt", path = "implementation/workstreams/topology-n-chatgpt/reviews/M01-T01-R01.toml" },
+  { class = "review_attempt", path = "implementation/workstreams/topology-n-chatgpt/reviews/M01-T01-R02.toml" },
+]
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/topology-n-chatgpt/cards/M01-T01.md"
+
+[cards.result]
+class = "result"
+path = "implementation/workstreams/topology-n-chatgpt/results/M01-T01.md"
+commit = "124a2945dcc7e28e3f7de64f53b48a9d0e41a6d1"
+blob = "482bfb90e65bd5d9735ae09cb2e59999e11004b4"
