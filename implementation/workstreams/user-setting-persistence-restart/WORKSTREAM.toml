@@ -5,30 +5,10 @@ created_from = "ea8b963b064669fd41818909c2a6346a652b4228"
 integration_target = "main"
 authority = [{ class = "authority", path = "requirements/ISSUE_USER_SETTING_PERSISTENCE.md" }]
 
-[intake]
-class = "intake"
-path = "implementation/workstreams/user-setting-persistence-restart/INTAKE.toml"
-
 [tracker]
 class = "tracker"
 path = "implementation/workstreams/user-setting-persistence-restart/TRACKER.toml"
 
-[research]
-class = "research"
-path = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.toml"
-
-[brainstorm]
-class = "brainstorm"
-path = "implementation/workstreams/user-setting-persistence-restart/BRAINSTORM.toml"
-
-[definition]
-class = "definition"
-path = "implementation/workstreams/user-setting-persistence-restart/DEFINITION.toml"
-
-[planning]
-class = "planning"
-path = "implementation/workstreams/user-setting-persistence-restart/PLANNING.toml"
-
-[plan_review]
-class = "plan_review"
-path = "implementation/workstreams/user-setting-persistence-restart/PLAN_REVIEW.toml"
+[task_board]
+class = "task_board"
+path = "implementation/workstreams/user-setting-persistence-restart/TASK_BOARD.toml"

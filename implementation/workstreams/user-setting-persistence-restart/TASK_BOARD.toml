@@ -1,0 +1,17 @@
+workstream_id = "user-setting-persistence-restart"
+revision = 0
+
+[execution_ref]
+branch = "fix/user-setting-persistence-restart"
+
+[[cards]]
+id = "M01-T01"
+status = "blocked"
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M01-T01.md"
+
+[cards.blocker]
+class = "blocker"
+path = "implementation/workstreams/user-setting-persistence-restart/blockers/M01-T01.toml"
