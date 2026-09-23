@@ -1,0 +1,10 @@
+kind = "change"
+workstream_id = "topology-n"
+branch = "feat/m07-l08-topology-n"
+created_from = "a31047259c92a7c6a6054a1b9bf618fc0f6ac69a"
+integration_target = "main"
+authority = [{ class = "authority", path = "requirements/TOPOLOGY_N_L08.md" }]
+
+[task_board]
+class = "task_board"
+path = "implementation/workstreams/topology-n/TASK_BOARD.toml"
