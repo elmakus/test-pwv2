@@ -1,0 +1,12 @@
+workstream_id = "user-setting-persistence-restart"
+kind = "issue"
+state = "complete"
+diagnosis_revision = 2
+repair_subject = "repair:user-setting-persistence-nondestructive:v2"
+diagnosis_prior_art_subject = "repair:user-setting-persistence-nondestructive:v2"
+diagnosis_prior_art_result = "implementation/workstreams/user-setting-persistence-restart/RESEARCH.toml#repair:user-setting-persistence-nondestructive:v2"
+response_kind = "authorization"
+response_observed = true
+alignment_state = "authorized"
+alignment_subject = "repair:user-setting-persistence-nondestructive:v2"
+micro_fix_candidate = false

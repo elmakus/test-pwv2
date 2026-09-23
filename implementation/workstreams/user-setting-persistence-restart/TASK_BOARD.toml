@@ -1,0 +1,54 @@
+workstream_id = "user-setting-persistence-restart"
+revision = 12
+
+[execution_ref]
+branch = "fix/user-setting-persistence-restart"
+
+[[cards]]
+id = "M01-T01"
+status = "done"
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M01-T01.md"
+
+[cards.result]
+class = "result"
+path = "implementation/workstreams/user-setting-persistence-restart/results/M01-T01.md"
+commit = "c762f8c3e1a57e2c2bf85ed4af9d78521eeeeb7d"
+blob = "b9d19a2224e7314e17adc767e624d70b26b26de3"
+
+[[cards]]
+id = "M02-T01"
+status = "done"
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M02-T01.md"
+
+[cards.result]
+class = "result"
+path = "implementation/workstreams/user-setting-persistence-restart/results/M02-T01.md"
+commit = "fd864837b6b514731823d957f00d55e414b334db"
+blob = "22040b172dbcb5d8f89bb08977f03bad1fd8e507"
+
+[[cards]]
+id = "M03-T01"
+status = "done"
+review_attempts = [{ class = "review_attempt", path = "implementation/workstreams/user-setting-persistence-restart/reviews/M03-T01-R01.toml" }]
+
+[cards.contract]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M03-T01.md"
+
+[cards.result]
+class = "result"
+path = "implementation/workstreams/user-setting-persistence-restart/results/M03-T01.md"
+commit = "8c507f82e7aecb64358850a4fac282822da82712"
+blob = "1cbfca173504376e6a5895034fd8a34a9aaf9289"
+
+[[jit_triggers]]
+id = "after-M02-T01"
+after_card = "M02-T01"
+state = "consumed"
+condition = "M02-T01 DONE result fixes the exact regression acceptance surface required to materialize the bounded persistence repair Card."

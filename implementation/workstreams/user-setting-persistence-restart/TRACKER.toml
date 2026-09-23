@@ -1,0 +1,9 @@
+workstream_id = "user-setting-persistence-restart"
+provider = "github"
+repository = "elmakus/test-pwv2"
+dedup_key = "project-workflow:user-setting-persistence-restart"
+state = "linked"
+issue_number = 2
+candidate_issue_numbers = []
+readback_state = "verified"
+final_pr = 3

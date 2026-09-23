@@ -1,0 +1,20 @@
+workstream_id = "user-setting-persistence-restart"
+card_id = "M03-T01"
+attempt = "R01"
+verdict = "green"
+evidence_path = "implementation/workstreams/user-setting-persistence-restart/evidence/M03-T01-independent-review-R01.md"
+
+[subject]
+class = "git_blob"
+repository = "elmakus/test-pwv2"
+commit = "8c507f82e7aecb64358850a4fac282822da82712"
+path = "implementation/workstreams/user-setting-persistence-restart/results/M03-T01.md"
+blob = "1cbfca173504376e6a5895034fd8a34a9aaf9289"
+
+[acceptance]
+class = "task_card"
+path = "implementation/workstreams/user-setting-persistence-restart/cards/M03-T01.md"
+
+[independence]
+materially_produced_or_repaired_subject = false
+basis = "Fresh semantic reviewer context independently inspected the exact frozen result, implementation subject, authority and regression evidence and did not materially produce or repair that subject."

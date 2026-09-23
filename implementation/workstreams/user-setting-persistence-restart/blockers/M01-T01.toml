@@ -1,0 +1,5 @@
+workstream_id = "user-setting-persistence-restart"
+card_id = "M01-T01"
+class = "runtime_access_input"
+summary = "The selected branch contains workflow/authority artifacts only and no application implementation, persistence backend, startup lifecycle, migration/default logic, runtime fixture, or regression test surface. P1 M1 cannot bind to concrete files/APIs until that implementation input is present."
+evidence_path = "implementation/workstreams/user-setting-persistence-restart/evidence/execution-prep-P1-M01-T01-blocker.md"

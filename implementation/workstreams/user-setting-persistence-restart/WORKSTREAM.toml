@@ -1,0 +1,14 @@
+kind = "issue"
+workstream_id = "user-setting-persistence-restart"
+branch = "fix/user-setting-persistence-restart"
+created_from = "ea8b963b064669fd41818909c2a6346a652b4228"
+integration_target = "main"
+authority = [{ class = "authority", path = "requirements/ISSUE_USER_SETTING_PERSISTENCE.md" }]
+
+[tracker]
+class = "tracker"
+path = "implementation/workstreams/user-setting-persistence-restart/TRACKER.toml"
+
+[task_board]
+class = "task_board"
+path = "implementation/workstreams/user-setting-persistence-restart/TASK_BOARD.toml"
